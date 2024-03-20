@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "ReactJS Dev | Portfolio",
@@ -14,11 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={"font-firaCode bg-main text-white"}>
-        <div className={"w-[1024px] mx-auto"}>
+      <body
+        className={"font-firaCode bg-main text-white flex flex-col h-screen"}
+      >
+        <div className={"w-[1024px] mx-auto mb-auto"}>
           <Header />
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
