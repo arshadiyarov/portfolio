@@ -1,5 +1,11 @@
-import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
+import MainBanner from "@/components/banners/MainBanner";
+import Quote from "@/components/banners/Quote";
 
 export default function Home() {
-  return <main>Main</main>;
+  return (
+    <main>
+      <MainBanner />
+      <Quote />
+    </main>
+  );
 }

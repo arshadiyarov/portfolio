@@ -5,7 +5,7 @@ const SecondaryButton: React.FC<ButtonProps> = ({ text }) => {
   return (
     <button
       className={
-        "text-secondary border border-secondary font-medium px-4 py-2 hover:bg-secondary hover:bg-opacity-20"
+        "text-secondary border border-secondary font-medium px-4 py-1.5 hover:bg-secondary hover:bg-opacity-20"
       }
     >
       {text}
