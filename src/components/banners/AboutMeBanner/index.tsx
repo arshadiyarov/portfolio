@@ -53,7 +53,7 @@ const Index = () => {
         src="/img/dots5x5.svg"
         alt="dots5x5"
         width={103}
-        className={"absolute -right-[240px] bottom-[102px]"}
+        className={"absolute -right-[200px] bottom-[102px]"}
       />
     </section>
   );
