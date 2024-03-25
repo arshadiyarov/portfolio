@@ -1,8 +1,8 @@
 import React from "react";
 
-const Quote = () => {
+const QuoteBanner = () => {
   return (
-    <div className={"flex flex-col w-fit mx-auto"}>
+    <section className={"flex flex-col w-fit mx-auto"}>
       <div className={"border border-secondary w-fit p-8 text-2xl relative"}>
         Respect is intended to operate on a two-way street
         <img
@@ -19,8 +19,8 @@ const Quote = () => {
       <div className={"border border-secondary w-fit p-4 text-2xl self-end"}>
         - James Dobson
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Quote;
+export default QuoteBanner;

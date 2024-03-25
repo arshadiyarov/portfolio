@@ -1,12 +1,11 @@
 import React from "react";
 import PrimaryButton from "@/components/ui/buttons/PrimaryButton";
-import Dots from "@/components/ui/Dots";
 
 const MainBanner = () => {
   return (
-    <div className={"flex items-center justify-between"}>
+    <section className={"flex items-center justify-between relative"}>
       <div className={"space-y-6 w-1/2"}>
-        <h1 className={"font-semibold text-[32px]"}>
+        <h1 className={"font-semibold text-3xl"}>
           Armat is a <span className={"text-primary"}>front-end developer</span>
         </h1>
         <p className={"text-secondary"}>
@@ -23,9 +22,13 @@ const MainBanner = () => {
           className={"absolute -z-10 top-[84px] -left-3"}
         />
         <img src="/img/Image.png" alt="Image" />
-        <Dots col={5} styles={"absolute z-10 bottom-14 right-4"} />
+        <img
+          src="/img/dots5x5.svg"
+          alt="dots5x5"
+          className={"absolute z-10 bottom-14 right-4"}
+        />
       </div>
-    </div>
+    </section>
   );
 };
 

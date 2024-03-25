@@ -44,7 +44,7 @@ const LanguageSwitcher = () => {
         )}
       </button>
       {isExpanded && (
-        <div className={"flex flex-col border border-secondary absolute"}>
+        <div className={"flex flex-col border border-secondary absolute z-10"}>
           {["EN", "RU", "KZ"].map((lang) => (
             <button
               key={lang}

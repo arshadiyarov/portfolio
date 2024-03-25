@@ -6,6 +6,7 @@ import HeaderLink from "@/components/ui/links/HeaderLink";
 const Header = () => {
   return (
     <header className={"flex items-end justify-between pt-8 pb-2"}>
+      {/* Add when hover logo : underline from center with primary color */}
       <Link href={"/"} className={"flex items-center font-bold gap-2.5"}>
         <img src="/img/logo.svg" alt="logo" width={16} />
         Armat Shadiyarov

@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "ReactJS Dev | Portfolio",
+  title: "Armat Shadiyarov | Portfolio",
   description: "Armat Shadiyarov, React FrontEnd Developer Portfolio",
 };
 

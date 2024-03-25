@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={"border-t border-secondary"}>
       <div className={"w-[1024px] mx-auto py-8 space-y-7"}>
-        <div className={" flex justify-between"}>
+        <div className={"flex justify-between mb-16"}>
           <div className={"space-y-4"}>
             <div className={"flex gap-3"}>
               <Link
@@ -17,7 +17,11 @@ const Footer = () => {
                 <img src="/img/logo.svg" alt="logo" width={16} />
                 Armat Shadiyarov
               </Link>
-              <p className={"text-secondary"}>// place future url here </p>
+              <p className={"text-secondary hover:text-white"}>
+                <Link href="mailto:shadiyarovarmat@gmail.com">
+                  shadiyarovarmat@gmail.com
+                </Link>
+              </p>
             </div>
             <div>
               <p>Front-end developer</p>
@@ -52,7 +56,8 @@ const Footer = () => {
         </div>
 
         <p className={"text-center text-secondary"}>
-          &copy; Copyright 2024. Made by Armat
+          <span className={"text-primary"}>{"<p>"}</span>Made by Armat
+          <span className={"text-primary"}>{"</p>"}</span>
         </p>
       </div>
     </footer>
